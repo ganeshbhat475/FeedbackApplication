@@ -1,0 +1,30 @@
+.modal {
+    top: 15%;
+}
+
+@keyframes modalAnimation {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.modal-dialog {
+    max-width: 60%;
+    animation: modalAnimation 0.5s linear;
+}
+
+.disableParent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.4;
+    overflow: hidden;
+}

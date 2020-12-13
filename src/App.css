@@ -1,0 +1,72 @@
+.App-header-style {
+  background-color: #282c34;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+}
+
+.bannerMessage {
+  width: 80vw;
+  height: 10vh;
+  margin: 3vh 0vh 3vh 0vh;
+  text-align: center;
+  font-size: 22px;
+}
+
+.App-body-style {
+  background-color: #282c34;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondFeedbackStyle {
+  position: fixed;
+  left: 35%;
+  bottom: 0px;
+}
+
+.AllFeedBacksButton {
+  position: fixed;
+  left: 50%;
+  bottom: 0px;
+  margin-left: 5%;
+}
+
+.App-ImageStyle {
+  width: 80%;
+  height: 90%;
+}
+
+.tableStyle {
+  background-color: #282c34;
+}
+
+.BackIcon::before {
+  content: '\00ab';
+  margin-left: 2%;
+}
+
+
+.buttonGroupStyle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+.animateQuestion {
+  animation: animateQuestion 0.5s linear;
+}
+
+@keyframes animateQuestion {
+  from {
+    opacity: 0;
+    transform: translateX(40%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
